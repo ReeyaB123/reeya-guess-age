@@ -5,8 +5,8 @@
   fetch('https://api.agify.io/?name=' + username)
 	.then((response) => response.json())
 	.then((data) => {
-  	username = data.name; // Path for temperature
-  	age = data.age; // Path for description
+  	username = data.name; // Path for name
+  	age = data.age; // Path for age
 	});
 }
 </script>
